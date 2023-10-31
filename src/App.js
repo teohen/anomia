@@ -28,6 +28,9 @@ function App() {
   const handleDraw = () => {
     const card = getTopCardFromDeck(count)
     const topWildCard = wildOrder[wildOrder.length - 1]
+
+    console.log('tpo', topWildCard)
+    console.log('coutn', count + numPlayers)
     if ((parseInt(count) + numPlayers) == topWildCard) {
       alert('CORINGA')
       wildOrder.pop()
@@ -36,6 +39,7 @@ function App() {
       setWildOrder([...wildOrder])
       setWildcards([...wildcards])
     } else {
+      console.log('mudou')
       setPlayDeck([...playDeck, card])
       setCount(parseInt(count) + parseInt(numPlayers))
     }

@@ -2,16 +2,30 @@ import './Card.css'
 
 function Card(props) {
   if (!props.card) {
-    return
+    return (
+      <h2 onClick={props.handleClick}>vazio</h2>
+    )
   }
 
+  const handleClick = () => {
+    props.handleClick()
+  }
 
   return (
-    <div className="card">
-    <div style={{backgroundColor: props.card.color || null }} className='square'>
-      <span> {props.card.symbol} </span>
+    <div style={{backgroundColor: props.card.color}} className="card" onClick={handleClick}>
+    <div className='card-info rotate'>
+      <div style={{backgroundColor: props.card.color || null }} className='square'>
+        <span> {props.card.symbol} </span>
+      </div>
+      <p> {props.card.text} </p>
     </div>
-    <h2> {props.card.text} </h2>
+    <hr />
+    <div className='card-info'>
+      <div style={{backgroundColor: props.card.color || null }} className='square'>
+        <span> {props.card.symbol} </span>
+      </div>
+      <p> {props.card.text} </p>
+    </div>
     </div>
   )
 }

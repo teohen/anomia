@@ -502,8 +502,8 @@ function getWildcards(ids) {
   const wildcards =[
     {
       "id": ids[0],
-      "symbol1": "5",
-      "symbol2": "6",
+      "symbol1": "#",
+      "symbol2": "@",
       "color1": "#FF69B4",
       "color2": "#9551A6",
       "text": "coringa",
@@ -511,8 +511,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[1],
-      "symbol1": "7",
-      "symbol2": "4",
+      "symbol1": "#",
+      "symbol2": "=",
       "color1": "#C82333",
       "color2": "#0069D9",
       "text": "coringa",
@@ -520,8 +520,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[2],
-      "symbol1": "3",
-      "symbol2": "4",
+      "symbol1": "o",
+      "symbol2": "=",
       "color1": "#804000",
       "color2": "#0069D9",
       "text": "coringa",
@@ -529,8 +529,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[3],
-      "symbol1": "7",
-      "symbol2": "1",
+      "symbol1": "#",
+      "symbol2": "x",
       "color1": "#C82333",
       "color2": "#E26310",
       "text": "coringa",
@@ -538,8 +538,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[4],
-      "symbol1": "5",
-      "symbol2": "8",
+      "symbol1": "#",
+      "symbol2": "*",
       "color1": "#FF69B4",
       "color2": "#fbff3a",
       "text": "coringa",
@@ -547,8 +547,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[5],
-      "symbol1": "2",
-      "symbol2": "1",
+      "symbol1": "+",
+      "symbol2": "x",
       "color1": "#218838",
       "color2": "#E26310",
       "text": "coringa",
@@ -556,8 +556,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[6],
-      "symbol1": "2",
-      "symbol2": "8",
+      "symbol1": "+",
+      "symbol2": "*",
       "color1": "#218838",
       "color2": "#fbff3a",
       "text": "coringa",
@@ -565,8 +565,8 @@ function getWildcards(ids) {
     },
     {
       "id": ids[7],
-      "symbol1": "3",
-      "symbol2": "6",
+      "symbol1": "o",
+      "symbol2": "@",
       "text": "coringa",
       "color1": "#804000",
       "color2": "#9551A6",
